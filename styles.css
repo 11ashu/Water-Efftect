@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 356px;
+  width: 100%;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height:700px;	
+  height: auto;
+  width: 100%;
+  background-image: url("sea.jpg");
+  background-size: 100% 100%;
+}
+
+.background .water {
+  position: absolute;
+  background-image: url("sea-map.png");
+  background-size: 100% 100%;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  filter: url("#turbulence");
+}
